@@ -1,0 +1,200 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    outline: 2px solid red;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header and Hero Section */
+.header, .hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 0 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.logo {
+    height: 50px; /* Control logo height */
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 90px 20px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 4px 0 12px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero-image {
+    flex: 1;
+    height: 240px;
+    object-fit: cover; /* Prevents image stretching */
+    border-radius: 4px; /* Optional rounded corners */
+}
+
+/* Information Section */
+.info-section {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    object-fit: cover; /* Prevents image stretching */
+}
+
+.card p {
+    margin-top: 8px;
+    color: #555;
+}
+
+/* Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 20px;
+}
+
+.quote-section .container {
+    max-width: 780px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    padding: 90px 20px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 48px 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cta-text p {
+    margin: 4px 0 0;
+    color: #E5E7EB;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px 0;
+}
+
