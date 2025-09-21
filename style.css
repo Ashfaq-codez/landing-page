@@ -110,7 +110,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 52px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .card{
