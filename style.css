@@ -85,8 +85,12 @@ body{
 
 .hero-image{
     flex: 1;
+    display: flex;
     height: 240px;
     object-fit: contain;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
 
 }
 
