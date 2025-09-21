@@ -59,6 +59,7 @@ body{
 
 .hero-text{
     flex: 1;
+    min-width: 300px;
 }
 
 .hero-text h1{
@@ -88,7 +89,7 @@ body{
     display: flex;
     height: 240px;
     object-fit: contain;
-    min-width: 300px;
+    /* min-width: 300px; */
     justify-content: center;
     align-items: center;
 
