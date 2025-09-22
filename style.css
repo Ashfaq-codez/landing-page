@@ -89,7 +89,7 @@ body{
     display: flex;
     height: 240px;
     object-fit: contain;
-    /* min-width: 300px; */
+    min-width: 300px;
     justify-content: center;
     align-items: center;
 
@@ -110,7 +110,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 52px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap; 
 }
 
 .card{
